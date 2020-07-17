@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    background-clip: padding-box;
+    outline-style: solid;
+    outline-width: 0px;
+    outline-color: alpha(currentColor, 0.2);
+    outline-offset: -0.3rem;
+    -gtk-outline-radius: 25px;
+    -gtk-secondary-caret-color: #00FFFF;
+    text-shadow: none;
+    -gtk-icon-shadow: none;
+    color: #ffddff;
+    text-shadow: 2px 2px 2px black;
+    border-radius: 0 0 25px 25px;
+    /*border: 1px solid #00FFFF;*/
+  }

@@ -1,0 +1,88 @@
+.background button,
+.inline-toolbar button.suggested-action,
+.inline-toolbar button.suggested-action.image-button,
+.inline-toolbar button.suggested-action.text-button,
+actionbar button.suggested-action,
+actionbar button.suggested-action.image-button,
+actionbar button.suggested-action.text-button,
+.inline-toolbar button.destructive-action,
+.inline-toolbar button.destructive-action.image-button,
+.inline-toolbar button.destructive-action.text-button,
+actionbar button.destructive-action,
+actionbar button.destructive-action.image-button,
+actionbar button.destructive-action.text-button,
+headerbar.selection-mode button.suggested-action,
+headerbar.selection-mode button.image-button.suggested-action {
+  background-image: linear-gradient(#111111, #111111);
+  border: 1px solid #111111;
+  box-shadow: 0px 0px 2px #111111;
+  transition: 250ms;
+  color: #ffddff;
+  text-shadow: 2px 2px 2px black;
+}
+
+.background button:hover,
+button.suggested-action:hover,
+button.destructive-action:hover,
+.inline-toolbar button.suggested-action:hover,
+.inline-toolbar button.suggested-action.image-button:hover,
+.inline-toolbar button.suggested-action.text-button:hover,
+actionbar button.suggested-action:hover,
+actionbar button.suggested-action.image-button:hover,
+actionbar button.suggested-action.text-button:hover,
+.inline-toolbar button.destructive-action:hover,
+.inline-toolbar button.destructive-action.image-button:hover,
+.inline-toolbar button.destructive-action.text-button:hover,
+actionbar button.destructive-action:hover,
+actionbar button.destructive-action.image-button:hover,
+actionbar button.destructive-action.text-button:hover,
+headerbar.selection-mode button.suggested-action:hover,
+headerbar.selection-mode button.image-button.suggested-action:hover,
+.csd headerbar:not(.default-decoration) button.titlebutton.close:hover,
+.solid-csd headerbar:not(.default-decoration) button.titlebutton.close:hover,
+.lightdm-gtk-greeter #login_window button#login_button:hover,
+.lightdm-gtk-greeter #restart_dialog button#restart_button:hover,
+.lightdm-gtk-greeter #shutdown_dialog button#shutdown_button:hover {
+  background-image: linear-gradient(#111111, #111111);
+  box-shadow: 2px 2px 2px #ffddff;
+  border: 1px solid #00FFFF;
+  color: #ffddff;
+  text-shadow: 2px 2px 2px black;
+}
+
+.background button:active,
+button.suggested-action:active,
+button.destructive-action:active,
+.inline-toolbar button.suggested-action:active,
+.inline-toolbar button.suggested-action.image-button:active,
+.inline-toolbar button.suggested-action.text-button:active,
+actionbar button.suggested-action:active,
+actionbar button.suggested-action.image-button:active,
+actionbar button.suggested-action.text-button:active,
+.inline-toolbar button.destructive-action:active,
+.inline-toolbar button.destructive-action.image-button:active,
+.inline-toolbar button.destructive-action.text-button:active,
+actionbar button.destructive-action:active,
+actionbar button.destructive-action.image-button:active,
+actionbar button.destructive-action.text-button:active,
+headerbar.selection-mode button.suggested-action:active,
+headerbar.selection-mode button.image-button.suggested-action:active,
+.csd headerbar:not(.default-decoration) button.titlebutton.close:active,
+.solid-csd headerbar:not(.default-decoration) button.titlebutton.close:active,
+window.background
+  > box.vertical
+  > overlay
+  > stack
+  > box.vertical
+  > scrolledwindow
+  > viewport.frame
+  button.tile.view:active,
+.lightdm-gtk-greeter #login_window button#login_button:active,
+.lightdm-gtk-greeter #restart_dialog button#restart_button:active,
+.lightdm-gtk-greeter #shutdown_dialog button#shutdown_button:active {
+  background-image: linear-gradient(#111111, #111111);
+  box-shadow: 2px 2px 2px #ffddff;
+  border: 1px solid #00FFFF;
+  color: #ffddff;
+  text-shadow: 2px 2px 2px black;
+}
