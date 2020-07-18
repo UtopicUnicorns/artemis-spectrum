@@ -1,0 +1,31 @@
+.gtkstyle-fallback {
+    background-color: #111111;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px black;
+    transition: 250ms;
+  }
+  
+  .gtkstyle-fallback:hover {
+    background-color: #111111;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px black;
+  }
+  
+  .gtkstyle-fallback:active {
+    background-color: #111111;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px black;
+  }
+  
+  .gtkstyle-fallback:disabled {
+    background-color: #111111;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px black;
+  }
+  
+  .gtkstyle-fallback:selected {
+    background-color:  #00FFFF;
+    border: 1px solid  #00FFFF;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px black;
+  }

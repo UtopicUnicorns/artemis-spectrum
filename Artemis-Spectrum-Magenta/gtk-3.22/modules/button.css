@@ -1,0 +1,1129 @@
+.background button,
+.inline-toolbar button.suggested-action,
+.inline-toolbar button.suggested-action.image-button,
+.inline-toolbar button.suggested-action.text-button,
+actionbar button.suggested-action,
+actionbar button.suggested-action.image-button,
+actionbar button.suggested-action.text-button,
+.inline-toolbar button.destructive-action,
+.inline-toolbar button.destructive-action.image-button,
+.inline-toolbar button.destructive-action.text-button,
+actionbar button.destructive-action,
+actionbar button.destructive-action.image-button,
+actionbar button.destructive-action.text-button,
+headerbar.selection-mode button.suggested-action,
+headerbar.selection-mode button.image-button.suggested-action {
+  background-image: linear-gradient(#111111, #111111);
+  border: 1px solid #111111;
+  ;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 2px black;
+}
+
+.background button:hover,
+button.suggested-action:hover,
+button.destructive-action:hover,
+.inline-toolbar button.suggested-action:hover,
+.inline-toolbar button.suggested-action.image-button:hover,
+.inline-toolbar button.suggested-action.text-button:hover,
+actionbar button.suggested-action:hover,
+actionbar button.suggested-action.image-button:hover,
+actionbar button.suggested-action.text-button:hover,
+.inline-toolbar button.destructive-action:hover,
+.inline-toolbar button.destructive-action.image-button:hover,
+.inline-toolbar button.destructive-action.text-button:hover,
+actionbar button.destructive-action:hover,
+actionbar button.destructive-action.image-button:hover,
+actionbar button.destructive-action.text-button:hover,
+headerbar.selection-mode button.suggested-action:hover,
+headerbar.selection-mode button.image-button.suggested-action:hover,
+.csd headerbar:not(.default-decoration) button.titlebutton.close:hover,
+.solid-csd headerbar:not(.default-decoration) button.titlebutton.close:hover,
+.lightdm-gtk-greeter #login_window button#login_button:hover,
+.lightdm-gtk-greeter #restart_dialog button#restart_button:hover,
+.lightdm-gtk-greeter #shutdown_dialog button#shutdown_button:hover {
+  background-image: linear-gradient(#111111, #111111);
+  border: 1px solid #ff00ff;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 2px black;
+}
+
+.background button:active,
+button.suggested-action:active,
+button.destructive-action:active,
+.inline-toolbar button.suggested-action:active,
+.inline-toolbar button.suggested-action.image-button:active,
+.inline-toolbar button.suggested-action.text-button:active,
+actionbar button.suggested-action:active,
+actionbar button.suggested-action.image-button:active,
+actionbar button.suggested-action.text-button:active,
+.inline-toolbar button.destructive-action:active,
+.inline-toolbar button.destructive-action.image-button:active,
+.inline-toolbar button.destructive-action.text-button:active,
+actionbar button.destructive-action:active,
+actionbar button.destructive-action.image-button:active,
+actionbar button.destructive-action.text-button:active,
+headerbar.selection-mode button.suggested-action:active,
+headerbar.selection-mode button.image-button.suggested-action:active,
+.csd headerbar:not(.default-decoration) button.titlebutton.close:active,
+.solid-csd headerbar:not(.default-decoration) button.titlebutton.close:active,
+window.background
+  > box.vertical
+  > overlay
+  > stack
+  > box.vertical
+  > scrolledwindow
+  > viewport.frame
+  button.tile.view:active,
+.lightdm-gtk-greeter #login_window button#login_button:active,
+.lightdm-gtk-greeter #restart_dialog button#restart_button:active,
+.lightdm-gtk-greeter #shutdown_dialog button#shutdown_button:active {
+  background-image: linear-gradient(#111111, #FF00FF);
+  border: 1px solid #ff00ff;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 2px black;
+}
+
+
+
+switch {
+  min-width: 32px;
+  border-radius: 100px;
+  -gtk-outline-radius: 100px;
+  background-color: #111111;
+  font-size: 0;
+  outline-offset: -0.3rem;
+  ;
+}
+
+switch:checked {
+  background-color: rgba(255, 112, 67, 0.54);
+}
+
+switch:checked:disabled {
+  background-color: rgba(255, 112, 67, 0.1512);
+}
+
+switch:disabled {
+  background-color: rgba(207, 216, 220, 0.1512);
+}
+
+switch slider {
+  min-width: 16px;
+  min-height: 16px;
+  margin: -2px 0;
+  padding: 0;
+  border-radius: 100px;
+  -gtk-outline-radius: 100px;
+  background-color: #b9c2c7;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.28);
+  transition: 250ms;
+}
+
+switch:hover slider {
+  background-color: #111111;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.28), 0 0 0 7px alpha(currentColor, 0.2);
+}
+
+switch:checked slider {
+  background-color: #ff00ff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.28);
+}
+
+switch:checked:hover slider {
+  background-color: #111111;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.28), 0 0 0 7px rgba(255, 112, 67, 0.2);
+}
+
+switch:disabled slider,
+switch:disabled:checked slider {
+  background-color: #404b51;
+  box-shadow: none;
+}
+
+row:selected > switch {
+  background-color: #ff00ff;
+  ;
+}
+
+row:selected > switch:checked {
+  background-color: #111111;
+  text-shadow: 2px 2px 2px black;
+}
+
+row:selected > switch slider {
+  background-color: #111111;
+  text-shadow: 2px 2px 2px black;
+}
+
+row:selected > switch:hover slider {
+  background-color: #111111;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.28), 0 0 0 7px rgba(255, 255, 255, 0.2);
+}
+
+row:selected > switch:checked slider {
+  background-color: #111111;
+  text-shadow: 2px 2px 2px black;
+}
+
+row:selected > switch:checked:hover slider {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.28), 0 0 0 7px rgba(255, 255, 255, 0.2);
+}
+
+.titlebar switch:not(:indeterminate),
+headerbar switch:not(:indeterminate),
+.titlebar switch:not(:indeterminate) slider:not(:indeterminate),
+headerbar switch:not(:indeterminate) slider:not(:indeterminate),
+.titlebar switch:disabled,
+.titlebar switch:disabled:checked,
+headerbar switch:disabled,
+headerbar switch:disabled:checked,
+row * switch:not(:indeterminate),
+row:selected * switch:not(:indeterminate),
+grid switch:not(:indeterminate),
+row * switch:not(:indeterminate) slider:not(:indeterminate),
+row:selected * switch:not(:indeterminate) slider:not(:indeterminate),
+grid switch:not(:indeterminate) slider:not(:indeterminate),
+row * switch:disabled,
+row * switch:disabled:checked,
+row:selected * switch:disabled,
+row:selected * switch:disabled:checked,
+grid switch:disabled,
+grid switch:disabled:checked {
+  margin: 0;
+  padding: 0;
+  border: unset;
+  color: transparent;
+  background: unset;
+  background-color: #111111;
+  background-size: 50px 30px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  box-shadow: none;
+  font-size: 0;
+  outline-color: transparent;
+}
+
+.titlebar switch:dir(rtl):not(:indeterminate),
+headerbar switch:dir(rtl):not(:indeterminate),
+.titlebar switch:not(:indeterminate) slider:dir(rtl):not(:indeterminate),
+headerbar switch:not(:indeterminate) slider:dir(rtl):not(:indeterminate),
+.titlebar switch:dir(rtl):disabled,
+.titlebar switch:dir(rtl):disabled:checked,
+headerbar switch:dir(rtl):disabled,
+headerbar switch:dir(rtl):disabled:checked,
+row * switch:dir(rtl):not(:indeterminate),
+row:selected * switch:dir(rtl):not(:indeterminate),
+grid switch:dir(rtl):not(:indeterminate),
+row * switch:not(:indeterminate) slider:dir(rtl):not(:indeterminate),
+row:selected * switch:not(:indeterminate) slider:dir(rtl):not(:indeterminate),
+grid switch:not(:indeterminate) slider:dir(rtl):not(:indeterminate),
+row * switch:dir(rtl):disabled,
+row * switch:dir(rtl):disabled:checked,
+row:selected * switch:dir(rtl):disabled,
+row:selected * switch:dir(rtl):disabled:checked,
+grid switch:dir(rtl):disabled,
+grid switch:dir(rtl):disabled:checked {
+  background-position: left center;
+}
+
+* switch {
+  ;
+}
+
+row * switch:not(:indeterminate),
+grid switch:not(:indeterminate) {
+  background-color: #ff0000;
+}
+
+row * switch:hover:not(:indeterminate),
+grid switch:hover:not(:indeterminate) {
+  background-color: #ff00ff;
+}
+
+row * switch:checked:not(:indeterminate),
+grid switch:checked:not(:indeterminate) {
+  background-color: #008000;
+}
+
+row * switch:checked:hover:not(:indeterminate),
+grid switch:checked:hover:not(:indeterminate) {
+  background-color: #ff00ff;
+}
+
+row * switch:checked:disabled:not(:indeterminate),
+grid switch:checked:disabled:not(:indeterminate),
+row * switch:checked:disabled:hover:not(:indeterminate),
+grid switch:checked:disabled:hover:not(:indeterminate) {
+  background-color: #666666;
+}
+
+row * switch:disabled:not(:indeterminate),
+grid switch:disabled:not(:indeterminate),
+row * switch:disabled:hover:not(:indeterminate),
+grid switch:disabled:hover:not(:indeterminate) {
+  background-color: #666666;
+}
+
+row:selected * switch:not(:indeterminate) {
+  background-color: #ff0000;
+}
+
+row:selected * switch:hover:not(:indeterminate) {
+  background-color: #ff00ff;
+}
+
+row:selected * switch:checked:not(:indeterminate) {
+  background-color: #008000;
+}
+
+row:selected * switch:checked:hover:not(:indeterminate) {
+  background-color: #ff00ff;
+}
+
+.titlebar switch:not(:indeterminate),
+headerbar switch:not(:indeterminate) {
+  background-color: #ff0000;
+}
+
+.titlebar switch:hover:not(:indeterminate),
+headerbar switch:hover:not(:indeterminate) {
+  background-color: #ff00ff;
+}
+
+.titlebar switch:checked:not(:indeterminate),
+headerbar switch:checked:not(:indeterminate) {
+  background-color: #008000;
+}
+
+.titlebar switch:checked:hover:not(:indeterminate),
+headerbar switch:checked:hover:not(:indeterminate) {
+  background-color: #ff00ff;
+}
+
+.titlebar switch:checked:disabled:not(:indeterminate),
+headerbar switch:checked:disabled:not(:indeterminate),
+.titlebar switch:checked:disabled:hover:not(:indeterminate),
+headerbar switch:checked:disabled:hover:not(:indeterminate) {
+  background-color: #666666;
+}
+
+.titlebar switch:disabled:not(:indeterminate),
+headerbar switch:disabled:not(:indeterminate),
+.titlebar switch:disabled:hover:not(:indeterminate),
+headerbar switch:disabled:hover:not(:indeterminate) {
+  background-color: #ff00ff;
+}
+
+row * switch:not(:indeterminate),
+row:selected * switch:not(:indeterminate),
+grid switch:not(:indeterminate) {
+  min-width: 50px;
+  min-height: 30px;
+}
+
+row * switch:disabled,
+row * switch:disabled:checked,
+row:selected * switch:disabled,
+row:selected * switch:disabled:checked,
+grid switch:disabled,
+grid switch:disabled:checked {
+  min-width: 50px;
+  min-height: 30px;
+}
+
+check {
+  background-color: #ff0000;
+  -gtk-icon-shadow: none;
+  ;
+}
+
+check:hover {
+  background-color: #ff00ff;
+  -gtk-icon-shadow: none;
+}
+
+check:active {
+  background-color: #FFFFFF;
+}
+
+check:disabled {
+  background-color: #666666;
+}
+
+check:indeterminate {
+  background-color: #ffcc00;
+}
+
+check:indeterminate:hover {
+  background-color: #ff00ff;
+}
+
+check:indeterminate:active {
+  background-color: #ffccaa;
+}
+
+check:indeterminate:disabled {
+  background-color: #666666;
+}
+
+check:checked {
+  background-color: #008000;
+}
+
+check:checked:hover {
+  background-color: #ff00ff;
+}
+
+check:checked:active {
+  background-color: #008000;
+}
+
+check:checked:disabled {
+  background-color: #666666;
+}
+
+.background:not(#MozillaGtkWidget) check {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget) headerbar check,
+messagedialog.background:not(#MozillaGtkWidget) check {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget) check:hover {
+  background-color: #ff00ff;
+}
+
+.background:not(#MozillaGtkWidget) headerbar check:hover,
+messagedialog.background:not(#MozillaGtkWidget) check:hover {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget) check:active {
+  background-color: #FF00FF;
+}
+
+.background:not(#MozillaGtkWidget) headerbar check:active,
+messagedialog.background:not(#MozillaGtkWidget) check:active {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget) check:disabled {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget) headerbar check:disabled,
+messagedialog.background:not(#MozillaGtkWidget) check:disabled {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget) check:indeterminate {
+  background-color: #ffcc00;
+}
+
+.background:not(#MozillaGtkWidget) headerbar check:indeterminate,
+messagedialog.background:not(#MozillaGtkWidget) check:indeterminate {
+  background-color: #ffcc00;
+}
+
+.background:not(#MozillaGtkWidget) check:indeterminate:hover {
+  background-color: #ff00ff;
+}
+
+.background:not(#MozillaGtkWidget) headerbar check:indeterminate:hover,
+messagedialog.background:not(#MozillaGtkWidget) check:indeterminate:hover {
+  background-color: #ffcc00;
+}
+
+.background:not(#MozillaGtkWidget) check:indeterminate:active {
+  background-color: #ffcc00;
+}
+
+.background:not(#MozillaGtkWidget) headerbar check:indeterminate:active,
+messagedialog.background:not(#MozillaGtkWidget) check:indeterminate:active {
+  background-color: #ffcc00;
+}
+
+.background:not(#MozillaGtkWidget) check:indeterminate:disabled {
+  background-color: #ffcc00;
+}
+
+.background:not(#MozillaGtkWidget) headerbar check:indeterminate:disabled,
+messagedialog.background:not(#MozillaGtkWidget) check:indeterminate:disabled {
+  background-color: #ffcc00;
+}
+
+.background:not(#MozillaGtkWidget) check:checked {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) headerbar check:checked,
+messagedialog.background:not(#MozillaGtkWidget) check:checked {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) check:checked:hover {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) headerbar check:checked:hover,
+messagedialog.background:not(#MozillaGtkWidget) check:checked:hover {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) check:checked:active {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) headerbar check:checked:active,
+messagedialog.background:not(#MozillaGtkWidget) check:checked:active {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) check:checked:disabled {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) headerbar check:checked:disabled,
+messagedialog.background:not(#MozillaGtkWidget) check:checked:disabled {
+  background-color: #008000;
+}
+
+radio {
+  background-color: #ff0000;
+  ;
+}
+
+radio:hover {
+  background-color: #FF00FF;
+}
+
+radio:active {
+  background-color: #ff0000;
+}
+
+radio:disabled {
+  background-color: #666666;
+}
+
+radio:indeterminate {
+  background-color: #ffdd00;
+}
+
+radio:indeterminate:hover {
+  background-color: #ff00ff;
+}
+
+radio:indeterminate:active {
+  background-color: #ffdd00;
+}
+
+radio:indeterminate:disabled {
+  background-color: #666666;
+}
+
+radio:checked {
+  background-color: #008000;
+}
+
+radio:checked:hover {
+  background-color: #ff00ff;
+}
+
+radio:checked:active {
+  background-color: #008000;
+}
+
+radio:checked:disabled {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) radio {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget) headerbar radio,
+messagedialog.background:not(#MozillaGtkWidget) radio {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget) radio:hover {
+  background-color: #ff00ff;
+}
+
+.background:not(#MozillaGtkWidget) headerbar radio:hover,
+messagedialog.background:not(#MozillaGtkWidget) radio:hover {
+  background-color: #FF0000;
+}
+
+.background:not(#MozillaGtkWidget) radio:active {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget) headerbar radio:active,
+messagedialog.background:not(#MozillaGtkWidget) radio:active {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget) radio:disabled {
+  background-color: #666666;
+}
+
+.background:not(#MozillaGtkWidget) headerbar radio:disabled,
+messagedialog.background:not(#MozillaGtkWidget) radio:disabled {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget) radio:indeterminate {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget) headerbar radio:indeterminate,
+messagedialog.background:not(#MozillaGtkWidget) radio:indeterminate {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget) radio:indeterminate:hover {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget) headerbar radio:indeterminate:hover,
+messagedialog.background:not(#MozillaGtkWidget) radio:indeterminate:hover {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget) radio:indeterminate:active {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget) headerbar radio:indeterminate:active,
+messagedialog.background:not(#MozillaGtkWidget) radio:indeterminate:active {
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-active.svg"));
+  -gtk-icon-shadow: none;
+}
+
+.background:not(#MozillaGtkWidget) radio:indeterminate:disabled {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget) headerbar radio:indeterminate:disabled,
+messagedialog.background:not(#MozillaGtkWidget) radio:indeterminate:disabled {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget) radio:checked {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) headerbar radio:checked,
+messagedialog.background:not(#MozillaGtkWidget) radio:checked {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) radio:checked:hover {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) headerbar radio:checked:hover,
+messagedialog.background:not(#MozillaGtkWidget) radio:checked:hover {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) radio:checked:active {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) headerbar radio:checked:active,
+messagedialog.background:not(#MozillaGtkWidget) radio:checked:active {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) radio:checked:disabled {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) headerbar radio:checked:disabled,
+messagedialog.background:not(#MozillaGtkWidget) radio:checked:disabled {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view check,
+.background:not(#MozillaGtkWidget) treeview.view check:only-child,
+.background:not(#MozillaGtkWidget) treeview.view radio,
+.background:not(#MozillaGtkWidget) treeview.view radio:only-child {
+  padding: 0;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view check:selected,
+.background:not(#MozillaGtkWidget) treeview.view check:selected:focus,
+.background:not(#MozillaGtkWidget) row check:selected,
+.background:not(#MozillaGtkWidget) row check:selected:focus {
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-selected.svg"));
+  -gtk-icon-shadow: none;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view check:selected:disabled,
+.background:not(#MozillaGtkWidget) treeview.view check:selected:focus:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:focus:disabled {
+  -gtk-icon-source: -gtk-scaled(
+    url("assets/checkbox-unchecked-insensitive.svg")
+  );
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:focus:indeterminate:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  row
+  check:selected:focus:indeterminate:disabled {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:checked:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:focus:checked:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:checked:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:focus:checked:disabled {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view check:selected:active,
+.background:not(#MozillaGtkWidget) treeview.view check:selected:focus:active,
+.background:not(#MozillaGtkWidget) row check:selected:active,
+.background:not(#MozillaGtkWidget) row check:selected:focus:active {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view check:selected:disabled,
+.background:not(#MozillaGtkWidget) treeview.view check:selected:focus:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:focus:disabled {
+  background-color: #666666;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:focus:indeterminate:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  row
+  check:selected:focus:indeterminate:disabled {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:checked:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:focus:checked:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:checked:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:focus:checked:disabled {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view check:selected:indeterminate,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:focus:indeterminate,
+.background:not(#MozillaGtkWidget) row check:selected:indeterminate,
+.background:not(#MozillaGtkWidget) row check:selected:focus:indeterminate {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view check:selected:disabled,
+.background:not(#MozillaGtkWidget) treeview.view check:selected:focus:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:focus:disabled {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:focus:indeterminate:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  row
+  check:selected:focus:indeterminate:disabled {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:checked:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:focus:checked:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:checked:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:focus:checked:disabled {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:indeterminate:active,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:focus:indeterminate:active,
+.background:not(#MozillaGtkWidget) row check:selected:indeterminate:active,
+.background:not(#MozillaGtkWidget)
+  row
+  check:selected:focus:indeterminate:active {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view check:selected:disabled,
+.background:not(#MozillaGtkWidget) treeview.view check:selected:focus:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:focus:disabled {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:focus:indeterminate:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  row
+  check:selected:focus:indeterminate:disabled {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:checked:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:focus:checked:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:checked:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:focus:checked:disabled {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view check:selected:checked,
+.background:not(#MozillaGtkWidget) treeview.view check:selected:focus:checked,
+.background:not(#MozillaGtkWidget) row check:selected:checked,
+.background:not(#MozillaGtkWidget) row check:selected:focus:checked {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view check:selected:disabled,
+.background:not(#MozillaGtkWidget) treeview.view check:selected:focus:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:focus:disabled {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:focus:indeterminate:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  row
+  check:selected:focus:indeterminate:disabled {
+  background-color: #666666;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:checked:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:focus:checked:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:checked:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:focus:checked:disabled {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view check:selected:checked:active,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:focus:checked:active,
+.background:not(#MozillaGtkWidget) row check:selected:checked:active,
+.background:not(#MozillaGtkWidget) row check:selected:focus:checked:active {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view check:selected:disabled,
+.background:not(#MozillaGtkWidget) treeview.view check:selected:focus:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:focus:disabled {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:focus:indeterminate:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  row
+  check:selected:focus:indeterminate:disabled {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:checked:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  check:selected:focus:checked:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:checked:disabled,
+.background:not(#MozillaGtkWidget) row check:selected:focus:checked:disabled {
+  background-color: #008000;
+}
+
+* check {
+  ;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view radio:selected,
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:focus,
+.background:not(#MozillaGtkWidget) row radio:selected,
+.background:not(#MozillaGtkWidget) row radio:selected:focus {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:disabled,
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:focus:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:focus:disabled {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:focus:indeterminate:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  row
+  radio:selected:focus:indeterminate:disabled {
+  background-color: #666666;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:checked:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:focus:checked:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:checked:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:focus:checked:disabled {
+  background-color: #666666;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:active,
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:focus:active,
+.background:not(#MozillaGtkWidget) row radio:selected:active,
+.background:not(#MozillaGtkWidget) row radio:selected:focus:active {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:disabled,
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:focus:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:focus:disabled {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:focus:indeterminate:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  row
+  radio:selected:focus:indeterminate:disabled {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:checked:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:focus:checked:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:checked:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:focus:checked:disabled {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:indeterminate,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:focus:indeterminate,
+.background:not(#MozillaGtkWidget) row radio:selected:indeterminate,
+.background:not(#MozillaGtkWidget) row radio:selected:focus:indeterminate {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:disabled,
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:focus:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:focus:disabled {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:focus:indeterminate:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  row
+  radio:selected:focus:indeterminate:disabled {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:checked:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:focus:checked:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:checked:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:focus:checked:disabled {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:indeterminate:active,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:focus:indeterminate:active,
+.background:not(#MozillaGtkWidget) row radio:selected:indeterminate:active,
+.background:not(#MozillaGtkWidget)
+  row
+  radio:selected:focus:indeterminate:active {
+  background-color: #ffddaa;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:disabled,
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:focus:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:focus:disabled {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:focus:indeterminate:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  row
+  radio:selected:focus:indeterminate:disabled {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:checked:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:focus:checked:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:checked:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:focus:checked:disabled {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:checked,
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:focus:checked,
+.background:not(#MozillaGtkWidget) row radio:selected:checked,
+.background:not(#MozillaGtkWidget) row radio:selected:focus:checked {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:disabled,
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:focus:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:focus:disabled {
+  background-color: #666666;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:focus:indeterminate:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  row
+  radio:selected:focus:indeterminate:disabled {
+  background-color: #ffdd00;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:checked:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:focus:checked:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:checked:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:focus:checked:disabled {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:checked:active,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:focus:checked:active,
+.background:not(#MozillaGtkWidget) row radio:selected:checked:active,
+.background:not(#MozillaGtkWidget) row radio:selected:focus:checked:active {
+  background-color: #008000;
+}
+
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:disabled,
+.background:not(#MozillaGtkWidget) treeview.view radio:selected:focus:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:focus:disabled {
+  background-color: #ff0000;
+}
+
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  treeview.view
+  radio:selected:focus:indeterminate:disabled,
+.background:not(#MozillaGtkWidget) row radio:selected:indeterminate:disabled,
+.background:not(#MozillaGtkWidget)
+  row
+  radio:selected:focus:indeterminate:disabled {
+  background-color: #ffdd00;
+}
