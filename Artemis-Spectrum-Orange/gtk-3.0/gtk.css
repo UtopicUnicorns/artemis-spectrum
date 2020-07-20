@@ -1,0 +1,437 @@
+/*Theme labels that are descendants of a window*/
+window label {
+  padding: 7px 16px 8px;
+  background-color: transparent;
+}
+
+/*Theme notebooks, and anything within*/
+notebook {
+  background-color: transparent;
+}
+
+/*Weird colors*/
+combobox,
+notebook > entry {
+  background-color: transparent;
+}
+
+/*SCROLLBAR*/
+/*/////////*/
+scrollbar slider {
+  background-color: #FFA500;
+  border: 1px solid #FFA500;
+  min-width: 5px;
+  min-height: 5px;
+}
+
+scrollbar slider:hover {
+  background-color: #FFA500;
+  border: 1px solid #FFA500;
+}
+
+scrollbar slider:active {
+  background-color: #FFA500;
+  border: 1px solid #FFA500;
+}
+
+/*Boxes n stuff*/
+/*/////////////*/
+box * {
+}
+
+window * {
+}
+
+actionbar > * {
+  border: 1px solid #FFA500;
+}
+
+notebook > * {
+}
+
+.titlebar,
+headerbar {
+  background-color: #111111;
+  background-clip: border-box;
+  min-height: 42px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+}
+
+.titlebar *,
+headerbar * {
+  background-color: #111111;
+  background-clip: border-box;
+  min-height: 42px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+}
+
+.titlebar > *,
+headerbar > * {
+  background-color: #111111;
+  background-clip: border-box;
+  min-height: 42px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+}
+
+.background {
+  background-color: #111111;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+}
+
+iconview,
+.view {
+  border: 1px solid #FFA500;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+}
+
+iconview,
+.view > * {
+  border: 1px solid transparent;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+}
+
+iconview:hover,
+iconview:active,
+iconview:selected,
+.view:hover,
+.view:active,
+.view:selected {
+  background-color: #333333;
+  -gtk-outline-radius: 25px;
+}
+
+iconview:disabled,
+.view:disabled {
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+}
+
+/*Theme any widget named main-entry*/
+#main-entry {
+  background-color: transparent;
+}
+
+/*Theme all widgets with the style class entry*/
+.entry {
+  padding: 7px 16px 8px;
+}
+
+/*Theme the entry of a GtkSpinButton*/
+spinbutton entry {
+}
+
+/*LABELS*/
+/*//////*/
+label {
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+label:focus {
+  border: 1px solid #FFA500;
+}
+
+/*BUTTONS*/
+/*///////*/
+button {
+  padding: 7px 16px 8px;
+  background-image: linear-gradient(transparent, transparent);
+  border: 1px solid transparent;
+  transition: 500ms;
+}
+
+button:hover,
+button:focus {
+  background-image: linear-gradient(transparent, transparent);
+  border: 1px solid #FFA500;
+}
+
+button:active {
+  background-image: linear-gradient(transparent, #FFA500);
+  border: 1px solid #FFA500;
+}
+
+/*Check Buttons*/
+/*/////////////*/
+checkbutton {
+  background-color: transparent;
+  transition: 500ms;
+}
+
+checkbutton:checked {
+  background-color: transparent;
+}
+
+checkbutton:indeterminate {
+  background-color: transparent;
+}
+
+check {
+  background-color: #ff0000;
+  -gtk-icon-shadow: none;
+}
+
+check:hover {
+  background-color: #FFA500;
+  -gtk-icon-shadow: none;
+}
+
+check:active {
+  background-color: #ffffff;
+}
+
+check:disabled {
+  background-color: #666666;
+}
+
+check:indeterminate {
+  background-color: #ffcc00;
+}
+
+check:indeterminate:hover {
+  background-color: #FFA500;
+}
+
+check:indeterminate:active {
+  background-color: #ffccaa;
+}
+
+check:indeterminate:disabled {
+  background-color: #666666;
+}
+
+check:checked {
+  background-color: #008000;
+}
+
+check:checked:hover {
+  background-color: #FFA500;
+}
+
+check:checked:active {
+  background-color: #008000;
+}
+
+check:checked:disabled {
+  background-color: #666666;
+}
+
+/*Radio Buttons*/
+/*/////////////*/
+radio {
+  background-color: #ff0000;
+}
+
+radio:hover {
+  background-color: #FFA500;
+}
+
+radio:active {
+  background-color: #ff0000;
+}
+
+radio:disabled {
+  background-color: #666666;
+}
+
+radio:indeterminate {
+  background-color: #ffdd00;
+}
+
+radio:indeterminate:hover {
+  background-color: #FFA500;
+}
+
+radio:indeterminate:active {
+  background-color: #ffdd00;
+}
+
+radio:indeterminate:disabled {
+  background-color: #666666;
+}
+
+radio:checked {
+  background-color: #008000;
+}
+
+radio:checked:hover {
+  background-color: #FFA500;
+}
+
+radio:checked:active {
+  background-color: #008000;
+}
+
+radio:checked:disabled {
+  background-color: #008000;
+}
+
+/*SWITCH*/
+/*//////*/
+switch {
+  padding: 7px 16px 8px;
+  min-width: 32px;
+  background-color: transparent;
+}
+
+switch:checked {
+  background-color: transparent;
+}
+
+switch:checked:disabled {
+  background-color: transparent;
+}
+
+switch:disabled {
+  background-color: transparent;
+}
+
+switch slider {
+  border-radius: 25px;
+  min-width: 16px;
+  min-height: 16px;
+  margin: -2px 0;
+  padding: 0;
+  background-color: #ff0000;
+  border: 3px double #111111;
+  transition: 500ms;
+}
+
+switch:hover slider {
+  background-color: #ff0000;
+  border: 3px double #ffffff;
+}
+
+switch:checked slider {
+  background-color: #008000;
+  border: 3px double #111111;
+}
+
+switch:checked:hover slider {
+  background-color: #008000;
+  border: 3px double #ffffff;
+}
+
+switch:disabled slider,
+switch:disabled:checked slider {
+  background-color: #444444;
+  border: 3px double #111111;
+}
+
+/*ROWS*/
+/*////*/
+row {
+  border: 1px solid transparent;
+  transition: 500ms;
+}
+row:selected,
+row:hover {
+  border: 1px solid #FFA500;
+}
+
+/*TITLEBAR*/
+/*////////*/
+
+/*FALLBACK*/
+/*////////*/
+.gtkstyle-fallback {
+  background-color: #111111;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+  transition: 250ms;
+}
+
+.gtkstyle-fallback:hover {
+  background-color: #111111;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+}
+
+.gtkstyle-fallback:active {
+  background-color: #111111;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+}
+
+.gtkstyle-fallback:disabled {
+  background-color: #111111;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+}
+
+.gtkstyle-fallback:selected {
+  background-color: #FFA500;
+  border: 1px solid #FFA500;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+}
+
+/*COLOURS INCLUDING TITLEBAR*/
+/****************************/
+@define-color theme_fg_color #FFFFFF;
+@define-color theme_inverted_fg_color #FFFFFF;
+@define-color theme_text_color #FFFFFF;
+@define-color theme_bg_color #111111;
+@define-color theme_base_color #111111;
+@define-color theme_selected_bg_color #FF00FF;
+@define-color theme_selected_fg_color #FFFFFF;
+@define-color insensitive_bg_color #111111;
+@define-color insensitive_fg_color rgba(207, 216, 220, 0.28);
+@define-color insensitive_base_color #111111;
+@define-color theme_unfocused_fg_color rgba(207, 216, 220, 0.28);
+@define-color theme_unfocused_inverted_fg_color rgba(207, 216, 220, 0.4);
+@define-color theme_unfocused_text_color rgba(207, 216, 220, 0.28);
+@define-color theme_unfocused_inverted_text_color rgba(207, 216, 220, 0.28);
+@define-color theme_unfocused_bg_color #111111;
+@define-color theme_unfocused_base_color #111111;
+@define-color theme_unfocused_selected_bg_color #FF00FF;
+@define-color theme_unfocused_selected_fg_color #FFFFFF;
+@define-color unfocused_insensitive_color rgba(207, 216, 220, 0.28);
+@define-color placeholder_text_color #333333;
+@define-color borders #111111;
+@define-color unfocused_borders #111111;
+@define-color warning_color #FF00FF;
+@define-color error_color #FF0000;
+@define-color success_color #008000;
+@define-color link_color #FF00FF;
+@define-color wm_bg_a #111111;
+@define-color wm_bg_b #111111;
+@define-color wm_bg_c #111111;
+@define-color content_view_bg #111111;
+@define-color budgie_tasklist_indicator_color #FF00FF;
+@define-color budgie_tasklist_indicator_color_active #FF00FF;
+@define-color budgie_tasklist_indicator_color_active_window #FF00FF;
+@define-color budgie_tasklist_indicator_color_attention #FF00FF;
+
+/*GLOBAL*/
+/*//////*/
+*:disabled {
+  background-color: transparent;
+}
+
+* {
+  all: unset;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
+  border: 1px solid transparent;
+  border-radius: 0px 0px 25px 25px;
+  -gtk-outline-radius: 0px 0px 25px 25px;
+  transition: 500ms;
+}
+
+*:hover {
+  background-color: #333333;
+  border: 1px solid #FFA500;
+  border-radius: 0px 0px 25px 25px;
+}
+
+*:selected {
+  background-color: #333333;
+  border-radius: 0px 0px 25px 25px;
+}
